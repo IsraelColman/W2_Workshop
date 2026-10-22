@@ -34,4 +34,8 @@ Employee (Employee_ID PK, Employee_Name, Phone, Email, Address)
 Payment (Payment_ID PK, Customer_ID FK, Payment_Date, Amount, Payment_Method, Payment_Status)
 
 
+# Diagram review
 
+a) the main similarities are the categories as well as the fields. the relation ship connections are also the same (1:m)
+
+b) The differences are primarily the format and the colors. Israel's has a title on his. otherwise everything else is the same.
