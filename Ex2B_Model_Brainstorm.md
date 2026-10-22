@@ -14,5 +14,20 @@ Payment: Payment ID, Customer ID, Payment date, amount payment, Payment Method, 
 
 Employees: employees ID, employees name, email, and address. 
 
+# Logical Model
 
+Customer entity: 
+Customer (Customer_ID PK, name, phone, email, and address)
 
+PK means primary key, the unique ID for each customer.
+
+Dog (Dog_ID PK, Customer_ID FK, Name, Breed, Medical_Information, special_Instructions)
+
+Customer_ID FK connects each dog to its owner.
+
+Walking Schedule entity.
+
+WalkingSchedule (walk_ID PK, Dog_ID FK, Employee_ID FK, Date,Start_Time, End_Time, Walk_Status)
+Employee entity
+Employee (Employee_ID PK, Employee_Name, Phone, Email, Address)
+Payment (Payment_ID PK, Customer_ID FK, Payment_Date, Amount, Payment_Method, Payment_Status)
